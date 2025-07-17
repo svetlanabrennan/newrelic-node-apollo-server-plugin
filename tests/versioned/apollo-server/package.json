@@ -7,16 +7,16 @@
   "version": "0.0.0",
   "private": true,
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "tests": [
     {
       "engines": {
-        "node": ">=18"
+        "node": ">=20"
       },
       "dependencies": {
         "apollo-server": {
-          "versions": ">=3.0.0",
+          "versions": ">=3.0.0 <5.0.0",
           "samples": 3 
         }
       },
@@ -32,10 +32,10 @@
     },
     {
       "engines": {
-        "node": ">=18"
+        "node": ">=20"
       },
       "dependencies": {
-        "@apollo/server": ">=4.0.0",
+        "@apollo/server": ">=4.0.0 <5.0.0",
         "graphql-tag": "latest"
       },
       "files": [
